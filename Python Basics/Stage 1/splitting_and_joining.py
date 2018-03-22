@@ -6,4 +6,9 @@ list('hello')
 flavors = ['chocolate', 'mint', 'strawberry']
 ','.join(flavors)
 print("My favorite flavors are: " + ', '.join(flavors))
-print("My favorite flavors are: {}".format(", ".join(flavors)))
+print("My favorite flavors are: {}".format(", ".join(flavors))
+
+available = "banana split;hot fudge;cherry;malted;black and white"
+sundaes = available.split(";")
+menu = "Our available flavors are: {}.".format(", ".join(sundaes))
+print(menu)
