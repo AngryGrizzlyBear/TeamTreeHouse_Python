@@ -1,3 +1,4 @@
+import datetime
 name = input("What should I call you? ")
 
 while True:
@@ -9,7 +10,7 @@ while True:
     else:
         break
 
-current_year = 2018
+current_year = datetime.datetime.now().year
 current_age = current_year - birth_year
 turn_25 = (25-current_age) + current_year
 turn_50 = (50-current_age) + current_year
