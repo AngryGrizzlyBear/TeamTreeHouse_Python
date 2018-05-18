@@ -12,3 +12,4 @@ available = "banana split;hot fudge;cherry;malted;black and white"
 sundaes = available.split(";")
 menu = "Our available flavors are: {}.".format(", ".join(sundaes))
 print(menu)
+#had to do it. Can probably make this better.
